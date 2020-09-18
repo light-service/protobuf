@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package light.services.protobuf;
+
+option go_package = ".;protobuf";
+
+message Error {
+    int32 code = 1;
+    string msg = 2;
+}
+
