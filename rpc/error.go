@@ -15,7 +15,7 @@ type Error struct {
 	text      string
 }
 
-func New(innerCode int, rpcCode codes.Code, text string) *Error {
+func NewError(innerCode int, rpcCode codes.Code, text string) *Error {
 	return &Error{
 		innerCode: innerCode,
 		rpcCode:   rpcCode,
