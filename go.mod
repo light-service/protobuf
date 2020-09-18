@@ -1,4 +1,4 @@
-module github.com/light-service/user
+module github.com/light-service/protobuf
 
 go 1.14
 

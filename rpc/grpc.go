@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	protobuf "github.com/light-service/user"
+	protobuf "github.com/light-service/protobuf"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )
